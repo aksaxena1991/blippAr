@@ -1,0 +1,26 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.input-box {
+    width: 50%;
+    margin: 5px;
+    height: 15px;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.autocomplete {
+    background: grey;
+    width: calc(50% - 30px);
+    margin: 0px 5px 0px;
+}
+
+.autocomplete>.active {
+    color: white;
+    padding: 5px;
+    list-style: none;
+}
